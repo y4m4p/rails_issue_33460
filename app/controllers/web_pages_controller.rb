@@ -1,0 +1,3 @@
+class WebPagesController < ApplicationController
+
+end
