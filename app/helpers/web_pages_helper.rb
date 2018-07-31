@@ -5,7 +5,8 @@ module WebPagesHelper
     if true
       link_to 'somewhere', some_view_path(foo: 'true')
     else
-      link_to 'somewhere', some_view_path(foo: 'false')
+      # Uncomment the next line after you have successfully started up the server.
+      #link_to 'somewhere', some_view_path(foo: 'false')
     end
 
     ## OR you can write it like this
@@ -40,6 +41,13 @@ module WebPagesHelper
     # else
     #   link_to 'somewhere', some_view_path
     # end
+    #
+    # if false
+    #   link_to 'somewhere', some_view_path
+    # else
+    #   link_to 'somewhere', some_view_path(foo: 'false')
+    # end
+    #
     #
   end
 end
