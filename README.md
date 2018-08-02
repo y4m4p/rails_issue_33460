@@ -21,17 +21,16 @@ Install these programs to run the application correctly.
 
 `bundle install --path vendor/bundle`
 
-- create database
-We won't be using the database. This is just for application sake.
+- Create database.(We won't be using the database. This is just for application sake.)
 
 `bundle exec rails db:create`
 
-- run server
+- Run server.
+
 `bundle exec rails s`
 
 ## Steps to reproduce the issue
-- Go to `localhost:3000` in your web browser.  
-(I have only tested this with Vivaldi (Chromium))
+- Go to `localhost:3000` in your web browser. 
 
 - You should be able to access the welcome page.
 
